@@ -1,0 +1,18 @@
+<jxb:bindings version="1.0"
+    xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <jxb:globalBindings>
+        <jxb:javaType
+            name="java.time.LocalDate"
+            xmlType="xs:date"
+            parseMethod="com.ninos.common.Utils.parseDate"
+            printMethod="com.ninos.common.Utils.printDate" />
+
+        <jxb:javaType
+            name="java.time.LocalTime"
+            xmlType="xs:time"
+            parseMethod="com.ninos.common.Utils.parseTime"
+            printMethod="com.ninos.common.Utils.printTime" />
+    </jxb:globalBindings>
+</jxb:bindings>
