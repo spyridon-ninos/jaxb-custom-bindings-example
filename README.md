@@ -13,9 +13,7 @@ There is not much to do, just compile the project:
 mvn clean verify
 ```
 
-There are two XSD files, one called SimpleResponse.xsd and another one
-called XjbResponse.xsd. The second one has also a binding file
-associated with it (XjbResponse.xjb), which essentially describes that
+There is a binding file (XjbResponse.xjb), which essentially describes that
 we want to substitute the XmlGregorianCalendar with a different type
 (LocalDate for an xml date and LocalTime for an xml time type).
 Once you compile the project, you can see the generated java classes
